@@ -27,7 +27,7 @@ Presenting the new system that allows you to look for:
 [DrivingPal PPT](https://docs.google.com/presentation/d/1PP_UdvGI5GEMj1osPAG12IMrS4C_On8G/edit?usp=sharing&ouid=104856549558075776345&rtpof=true&sd=true)
 
 ## Video :
-[DrivingPal demo video](    )
+[DrivingPal demo video](https://drive.google.com/file/d/1Cv3ApBOFXm7cIB13sykMzI8Vbyj-p2-M/view?usp=drivesdk)
 
 ## Tech Stack used :
 
@@ -37,7 +37,12 @@ Presenting the new system that allows you to look for:
 
 ## Prototype Application (Sample):
 
-[DrivingPal app](https://omchaturvediindia.wixsite.com/my-site-2/)
+[DrivingPal app](https://framer.com/share/Magic-Player--72Rkmhf4wtNmGGh5KP2p/MIsuE0kBn)
+
+## Algorithm:
+> Alg 1
+
+> Alg 2
 
 
 ## Purpose :
