@@ -1,0 +1,80 @@
+Algorithm
+(Data base + Driving pattern)
+
+
+#include <iomanip>
+#include <iostream>
+using namespace std;
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
+#include <iostream>
+using namespace std;
+
+int main()
+{   char name[20],start[20],reached[20],email[20],address[50],Phone_No[10];
+    cout<<"Enter your name:";
+    cin>>name;
+    cout<<"Enter your email address:"<<endl;
+    cin>>email;
+    cout<<"starting point:"<<endl;
+    cin>>start;
+    cout<<"Reached location:"<<endl;
+    cin>>reached;
+    cout<<"Enter your address:"<<endl;
+    cin>>address;
+    cout<<"Enter your phone number:"<<endl;
+    cin>>Phone_No;
+    int speed, sec;
+    cout << "your current speed: ";
+    cin >> speed;
+   if (speed == 0) 
+    {
+        cout<< "|\n you are not moving \nspeed = " << speed << " km/h.\nstatus: user is not okay\n", speed;
+        cout<< "|\n Alert: Emergency Program execution-started !!!\n";
+    
+
+   for (int sec = 30; sec >0 ; sec--)
+ {
+      cout << setw(2) << sec;
+      cout.flush();
+
+      sleep(1);
+      cout << '\r';
+      if (sec == 0)
+      {
+      cout << "program complete" << endl;
+      }
+      if (sec <1)
+      break;
+    }
+  }
+
+    else
+{
+     if (speed >=1 && speed <=30) 
+    {
+       cout<< "|\n you are runninng below economy\nspeed = " << speed << "  km/h.\nstatus: user is okay!\n", speed;
+    }
+    
+ else
+{
+     if (speed >=31 && speed <=60) 
+    {
+         cout << "|\n you are runninng at economy\nspeed =  " << speed << "  km/h.\nstatus: user is okay!\n", speed;
+    } 
+    
+ else
+{
+     if (speed >=61 && speed <=100) 
+    {
+         cout<< "|\n you are runninng above economy\nspeed =  " << speed << " km/h.\nstatus: user is okay!\n", speed;
+    }
+    }
+    }
+    }
+
+    return 0;
+}
