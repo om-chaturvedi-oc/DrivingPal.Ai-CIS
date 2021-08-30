@@ -5,19 +5,21 @@
 
 ## Team Members :
 
-* [Ritesh Tiwari](@s.amity.edu)
-* [Aman Mishra](@s.amity.edu)
-* [Om Chaturvredi](om.chaturvedi@s.amity.edu)
+* [Ritesh Tiwari](riteshtiwari1075@gmail.com)
+* [Aman Mishra](amanmishra7ave@gmail.com)
+* [Om Chaturvredi](om.chaturvedi@gmail.com)
 
 ## Overview :
-
-Presenting the new system that allows you to look for:
+#### A person who met with an accident might lose their life if the medical treatment is not served to them on time, road accident has been marked on top of this list with maximum number of recorded accidental cases. Many lives could have been saved if the emergency services would have got the accidental information and reached it on time.                                                                                                                                                Nowadays everyone carries a smartphone that includes GPS technology. This innovative idea helps to analyse the capabilities of a mobile GPS technology to monitor the speed of a vehicle and detect accidents based on monitored speed and will send accident location to the nearest Alert Service Centre. The GPS will monitor the speed of a vehicle and will compare it with the previous recorded speed per second. Whenever the speed will be below the specified speed, it starts an alert system with sound. If you do not react within 30seconds then it will automatically send an emergency message of an accident with GPS location and speed This will help to reach the rescue service team on time and could save valuable human life.
+ 
+  
+> ## Presenting the new system that allows you to look for:
 * 
 * 
 * 
 
 
-> DrivingPal.Ai system's graphs/ charts/ stats will make it more convenient to understand things in better way!
+#### DrivingPal.Ai system's Driving algorithm/ Graphs/ UI will help you to get a convenient driving companion when you're riding on way!
 
 ![DrivingPal.Ai](https://user-images.githubusercontent.com/76032847/131260442-6b7d195c-00c5-49dc-b908-1538784fa1c5.png)
  
@@ -36,14 +38,10 @@ Presenting the new system that allows you to look for:
   |back end  | `Firebase / SQL`                                 |
 
 ## Prototype Application (Sample):
-
-[DrivingPal app](https://framer.com/share/Magic-Player--72Rkmhf4wtNmGGh5KP2p/MIsuE0kBn)
+[DrivingPal App](https://framer.com/share/Magic-Player--72Rkmhf4wtNmGGh5KP2p/MIsuE0kBn)
 
 ## Algorithm:
-> Alg 1
-
-> Alg 2
-
+[Code](https://github.com/om-chaturvedi-oc/DrivingPal.Ai-CIS/tree/main/Algorithm)
 
 ## Purpose :
 
