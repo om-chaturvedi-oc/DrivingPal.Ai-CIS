@@ -1,0 +1,111 @@
+DrivingPal.Ai 
+(Driving Pattern)< C++
+
+
+#include <iomanip>
+#include <iostream>
+using namespace std;
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int speed, sec, fspeed;
+    
+    cout << "your current speed: ";
+    cin >> speed;
+    
+// part 1
+
+   if (speed == 0) 
+    {
+        cout<< "|\n you are not moving \nspeed = " << speed << " km/h.\nstatus: user is not okay\n", speed;
+        cout<< "|\n Alert: system standing by: wait time is 30 sec   !!!\n";
+        
+        
+       for (int sec = 30; sec >= 0 ; sec--)
+ {
+      cout << setw(2) << sec;
+      cout.flush();
+
+      sleep(1);
+      cout << '\r';
+      if (sec == 0)
+      {
+      cout << "\n system resume \n" << endl;
+      cout << "\n checking for movement detected!" << endl;
+      }
+      
+      if (sec <1)
+      break;
+    }
+    
+    
+    cout << "your current speed: ";
+    cin >> fspeed;
+    
+// part 1.1
+
+   if (fspeed > 0) 
+    {
+        cout<< "|\n Alert: Final Emergency Program execution terminated !!!\n";
+    }
+        
+    else
+    { 
+        if (fspeed == 0)
+        {
+        
+        
+         cout<< "|\n no movement recorded \nspeed = " << fspeed << " km/h.\nstatus: user is not responding\n", speed;
+         cout<< "|\n Alert: Final Emergency Program execution-started !!!\n";
+        
+       for (int sec = 10; sec = 0 ; sec--)
+ {
+      cout << setw(2) << sec;
+      cout.flush();
+
+      sleep(1);
+      cout << '\r';
+      if (sec == 0)
+      {
+       cout << "\n Final execution completed \n" << endl;
+       cout << "\n Emergency services informed!" << endl;
+      }
+      if (sec <1)
+      cout<< "|\n Alert: Final Emergency Program execution terminated !!!\n";
+      break;
+ }}}}
+  //part 3
+  
+    else
+{
+     if (speed >=1 && speed <=30) 
+    {
+       cout<< "|\n you are runninng below economy\nspeed = " << speed << " km/h.\nstatus: user is okay!\n", speed;
+    }
+    
+ else
+{
+     if (speed >=31 && speed <=60) 
+    {
+         cout << "|\n you are runninng at economy\nspeed =  " << speed << " km/h.\nstatus: user is okay!\n", speed;
+    } 
+    
+ else
+{
+     if (speed >=61 && speed <=100) 
+    {
+         cout<< "|\n you are runninng above economy\nspeed =  " << speed << " km/h.\nstatus: user is okay!\n", speed;
+    }
+    }
+    }
+    }
+
+    return 0;
+}
