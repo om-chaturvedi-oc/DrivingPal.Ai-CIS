@@ -14,9 +14,9 @@
  
   
 > ## Presenting the new system that allows you to look for:
-* 
-* 
-* 
+* Comfort Driving
+* Best Route
+* Your Personal Driving-Assistant
 
 
 #### DrivingPal.Ai system's Driving algorithm/ Graphs/ UI will help you to get a convenient driving companion when you're riding on way!
@@ -43,7 +43,7 @@
 ## Algorithm:
 [Code](https://github.com/om-chaturvedi-oc/DrivingPal.Ai-CIS/tree/main/Algorithm)
 
-## Purpose :
+## Purpose : 
 
 
 
